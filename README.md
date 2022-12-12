@@ -134,6 +134,7 @@ cd flaskAPI_blueprint
 This is an example of how to list things you need to use the software and how to install them.
 * your machine needs to be x86_64 ( AMD64). 
 
+
 ### Installation
 
 1. Install docker on your ```amd64``` system.
@@ -153,9 +154,24 @@ brew install docker
 ```
 
 ## Building from source
+Install python3
 ```
-chmod +x bootstrap.sh
+sudo apt-get install python3
+```
+Install pipenv 
+```
+pip install --user pipenv
+```
+Then instal the relevant dependencies
+```
+python3 -m pipenv install
+```
 
+
+chmod +x bootstrap.sh
+```
+To run:
+```
 ./bootstrap.sh 
 ```
 
