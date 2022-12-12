@@ -162,12 +162,12 @@ Install pipenv
 ```
 pip install --user pipenv
 ```
-Then instal the relevant dependencies
+Then install the relevant dependencies
 ```
 python3 -m pipenv install
 ```
-
-
+Give executable permission
+```
 chmod +x bootstrap.sh
 ```
 To run:
